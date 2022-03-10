@@ -1,0 +1,99 @@
+/* page crer un compte*/
+
+.top_bar2{
+    text-align: center;
+    margin-top: 0px;
+}
+.top_bar2 img{
+    height: 100px;
+    width: 150px;
+
+}
+.alert-succes{
+    border-color: rgb(36, 182, 0);
+    height : 60px;
+    margin-left: 50%;
+    border-radius: 10px;
+    transition: ease-in-out;
+    transition-duration: 1s;
+}
+.alert-succes p{
+    font-size: 19px;
+    text-align: center;
+}
+.alert-danger{
+    border-color: rgba(255, 19, 19, 0.493);
+    height: 60px;
+    margin-left: 50%;
+    transition: ease-in-out;
+    transition-duration: 1s;
+    border-radius: 20px;
+}
+.alert-danger p {
+    font-size: 20px;
+    
+    margin-left: 50%;
+}
+.alert-danger li{
+    list-style: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-bottom: 5px;
+}
+.form{
+    height: 450px;
+    border: solid 1px gray;
+    padding: 30px;
+    margin-left: 28%;
+    
+    width: 50%;
+    margin-top: 10px;
+    -webkit-box-shadow: 10px 5px 5px gray;
+            box-shadow: 10px 5px 5px gray;
+    margin-bottom: 20px;
+}
+.form h2{
+    color:#064acb ;
+    margin-top: 0px;
+}
+.form label{
+    float: left;
+    font-family: sans-serif;
+    font-size: 20px;
+    
+
+}
+.form input{
+    width: 200px;
+    float: right;
+    height: 25px;
+    padding-left: 4px;
+   
+}
+.form button{
+    background-color:#f79f24 ;
+    font-family: sans-serif;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+button:hover{
+    color: #000;
+    border: solid 1px #DBDBDB;/*  solide pour que je vois mon bordure */
+    border-radius: 20px;
+    -webkit-transition-duration: .5s;
+         -o-transition-duration: .5s;
+            transition-duration: .5s;
+    background: #064acb ;
+    
+   
+}
+a:hover{
+    color: black;
+}

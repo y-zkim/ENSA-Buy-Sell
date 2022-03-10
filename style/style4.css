@@ -1,0 +1,183 @@
+/* Vetements et chasures*/
+
+.vetements{
+    padding-top: 8px;
+    padding-left: 100px;
+}
+ h1{
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    line-height: 20px;
+    width: 100%;
+    
+}
+.btn-page button{
+    width: 300px;
+    background-color: #f79f24;
+    margin: 20px;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn-page button:hover{
+    background-color: #064acb ;
+}
+.produit{
+    width: 79%;
+    margin-left: 20px;
+    float: right;
+}
+#count{
+    margin-left: 20px;
+    font-size: 20px;
+}
+div.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 80%;
+    height: 280px;
+    background-color: white;
+
+    
+
+  }
+  
+  div.gallery:hover {
+    -webkit-transform: scale(1.07);
+        -ms-transform: scale(1.07);
+            transform: scale(1.07);
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    -webkit-box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.40);
+            box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.40);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-family: 'Comfortaa','Lato', sans-serif;
+    font-weight: 700;
+  }
+
+div .desc  {
+    color: gray;
+    background-color: transparent;
+    margin-left: 20px;
+    width: 80%;
+    
+}
+
+div .desc span{
+    text-decoration:line-through ;
+    width: 20%;
+    float: right;
+    
+    
+
+}
+
+  div .gallery button{
+      margin-left: 16px;
+      height: 30px;
+      width: 200px;
+      background-color: #f79f24 ;
+      border: none;
+      cursor: pointer;
+      
+      
+  }
+
+  div .gallery button:hover{
+      color: black ;
+      -webkit-transform: scale(1.12);
+          -ms-transform: scale(1.12);
+              transform: scale(1.12);
+      -webkit-transition: all ease 0.1s ;
+      -o-transition: all ease 0.1s ;
+      transition: all ease 0.1s ;
+  }
+ .article{
+     padding-left: 250px;
+     height: 90px;
+     padding-top: 80px;
+    
+     
+ }
+ .article pre{
+     -webkit-box-align: center;
+         -ms-flex-align: center;
+             align-items: center;
+     padding-top: 10px;
+     font-size: 20px;
+     background-color:#f79f24 ;
+     margin-right: 30px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    margin-top: -60px;
+    padding-right: 42px;
+    }
+
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 230px;
+        height: 390px;
+    
+      }
+      
+      div.gallery:hover {
+        -webkit-transform: scale(1.07);
+            -ms-transform: scale(1.07);
+                transform: scale(1.07);
+        -webkit-transition: all ease 0.3s;
+        -o-transition: all ease 0.3s;
+        transition: all ease 0.3s;
+        -webkit-box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.40);
+                box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.40);
+      }
+      .shop-item-button{
+          border-radius: 20px;
+      }
+      .shop-item-button:hover{
+          color: black !important;
+      }
+
+
+      .admin {
+        border-radius: 30px;
+        font-size: 12px;
+        color:white;
+        font-weight: normal;
+        border: none;
+        border-collapse: collapse;
+        max-width: 100%;
+        margin-left: 18%;
+        background:#ff275c;
+        backdrop-filter: blur(10px);
+        height: 50px;
+        width: 25%;
+        }
+        .admin:hover {
+            
+            background:#ca204b;
+            height: 53px;
+            width: 26%;
+            border-radius: 40px;
+            transition-duration: 0.2s;
+            transition-timing-function: ease-in-out;
+            
+            }   

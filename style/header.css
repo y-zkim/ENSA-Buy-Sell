@@ -1,0 +1,76 @@
+.recherche-box
+{
+  width: 200px;
+  height: 10mm;
+  position: flex;
+
+}
+
+
+.upbar{
+    
+    /*background-image:linear-gradient(45deg,rgba(255, 255, 255, 0.603),#411941);*/
+    background-color:rgba(255, 255, 255, 0.575);
+    backdrop-filter: blur(5px);
+    
+    opacity: 1;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    overflow-x: visible;
+    position:fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin :px;
+
+    
+    
+
+}
+.h3
+{
+    margin-left:50%;
+    margin-top:50%;
+    color:white;
+}
+.box1{
+    width: 200px;
+    color: white;
+    padding: 40px;
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    text-align: center;
+    border-color: white;
+    border-radius : 40px;
+  }
+  .box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  img.logo{
+    max-width: 20mm;
+    max-height: 20mm;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 6;
+    
+  }
+  img.resize{
+    max-width: 8mm;
+    max-height:8mm ;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 6;
+  }
+.float{
+  height: auto;
+  width: 50%;
+  padding-top: 50px;
+  margin-right:60px;
+}

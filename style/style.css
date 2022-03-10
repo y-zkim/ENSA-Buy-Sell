@@ -1,0 +1,643 @@
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    overflow: visible;
+}
+body ,html{
+    padding: 0 ;
+    margin: 0 ;
+    font-weight: 500;
+    z-index:-10;
+
+}
+/* -------------------Page d'index -----------*/
+
+.search button{
+    width: 20px;
+    height: 40px ;
+    border-radius: 10px;
+    border:  grey;
+    background-color: 	#f79f24  ;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 20px;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    
+}
+.social{
+    float: right;
+    margin-left: 940px;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 5;
+}
+.social img{
+    
+    float: right;
+    height: 50px;
+    width: 50px;
+    padding: 8px;
+    
+}
+
+.social a {
+    padding: 18px;
+    opacity: 0.6;
+    -webkit-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    transition: opacity .3s;
+}
+.social a:hover{
+    opacity: 1;
+}
+.navbar img{
+    height: 30px;
+    width: 35px;
+    padding-left: 10px;
+    
+}
+.navbar{
+    float: left;
+    
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    width: 12% ;
+    position: fixed;
+    z-index: 4;
+    
+    
+}
+.top-btns{
+    display: flex;
+    flex-direction:flex;
+    
+    margin-right: 30px;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    width: 80%;
+    justify-content: flex-end;
+
+}
+.top-btns a {
+    padding: 10px;
+}
+
+.center{
+    align-self: center;
+}
+
+.navbar a{
+    font-size: 20px;
+    width: 170% ;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 0.6em 0;
+    -webkit-transition:  .3s;
+    -o-transition:  .3s;
+    transition:  .3s;
+    border: solid 1px transparent ;
+    padding-left: 5px;
+    background-color: #064acb ;
+    color: white;
+}
+.navbar a:hover{
+    color: #000;
+    border: solid 1px #DBDBDB;/*  solide pour que je vois mon bordure */
+    border-radius: 3px;
+
+    background: #f79f24 ;
+    font-weight: bold;
+}
+.navbar a.active::before ,
+.navbar a:hover::before{
+    opacity: 1;/*  la coleur de nav quguemente par une opacity de 1 lorsque je passe la souri */
+
+}
+
+.connecter{
+    margin-top: 100px;
+    float: left;
+    margin-left: 340px;
+    
+    padding-left: 150px;
+}
+.connecter h2{
+   font-family: "Comfortaa";
+   font-size: 30px;
+   padding-left: 100px;
+  
+
+}
+.connecter label{
+   font-family: "Comfortaa";
+   color: grey;
+
+    
+}
+
+.connecter input{
+    width: 400px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    font-family: "Comfortaa";
+}
+.connecter input:hover{
+    border-bottom: 2px solid #000000 ;
+}
+.se_connecter{
+    padding-left: 140px;
+    
+}
+.se_connecter button{
+    
+    width: 130px;
+    height: 40px ;
+    border-radius: 10px;
+    border:  grey;
+    background-color: 	#f79f24  ;
+    cursor: pointer;
+}
+
+
+.mdp {
+    text-decoration: none;
+    color:#064acb ;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 265px;
+    display: flex;
+    
+}
+.mdp:hover{
+    color: #f79f24 ;
+}
+
+.creer_compte{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.creer_compte a{
+    text-decoration: none;
+    color:#064acb ;
+    font-family: "Comfortaa";
+    font-size: 20px;
+    padding-bottom: 20px;
+    
+}
+.slide{
+    padding-left: 30px;
+    margin-bottom: 100px;
+    width: 80%;
+    float: right;
+    
+}
+.slide img{
+    height: 400px;
+    width: 800px;
+    margin-top: 0px;
+
+}
+.pr{
+    font-size: 26px;
+    font-family: "Comfortaa";
+    margin-left: 300px;
+    color:#064acb ;
+    position: relative;
+    top: 50px;
+    
+}
+
+footer{
+        background-image:linear-gradient(180deg,transparent,white 500px);
+        opacity: 1;
+        height: 100px;
+        width: 100%;
+        overflow-x: visible;
+        position:fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        margin-top: 39%;
+        z-index: 5;
+
+}
+footer p {
+    font-size: 13px;
+}
+.footer img{
+    height: 20px;
+    position: relative;
+    top: 0px;
+    
+}
+.footer2{
+    margin-left: 800px;
+    position: absolute;
+    float: right;
+    width: 20%;
+    bottom: 0px;
+    top: 150px;
+}
+.footer2 p {
+    font-size: 20px;
+    position: relative;
+    top: -150px;
+    
+}
+.footer2 textarea{
+    height:100px;
+    position: relative;
+    top: -130px;
+    bottom: 0;
+}
+.footer2 button{
+    position: relative;
+    width: 230px;
+    background-color: #f79f24  ;
+    border-radius: 20px;
+    border: none;
+    top: -90px;
+    left: 0px;
+    cursor: pointer;
+    height: 20px;
+}
+.footer2 img{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 12px;
+    margin-right: 10px;
+}
+
+.searchnew-box{
+    text-align: center;
+    background :#2f3640;
+    height: 60px;
+    border-radius: 40px;
+    padding: 10px;  
+    margin-left:15%;  
+}
+.searchnew-box:hover > .searchnew-txt
+{
+    width: 240px;
+    padding: 0 6px;
+}
+.searchnew-btn
+{
+    
+    
+    
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    background: #2f3640 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.searchnew-txt
+{
+    border:none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size:16px; 
+    transition:0.4s;
+    line-height: 40px;
+    width: 0px;
+    align-items: center;     
+}
+.searchnew-img{
+    width: 1px;
+    height: 1px;
+    position:static;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Comfortaa","Century Gothic", sans-serif;
+    font-size: 10px;
+    background:url("../image/ap1.jpg")  ;
+
+}
+.box{
+    
+    width: 40%;
+    padding: 40px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    ;
+    transform: translate(-50%,-50%);
+    background: #ffffff17;
+    backdrop-filter: blur(50px);
+    text-align: center;
+    border-radius : 30px;
+    display:-ms-inline-grid;
+}
+.box1{
+    margin-top:150px;
+    width: 40%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ffffff17;
+    backdrop-filter: blur(50px);
+    text-align: center;
+    border-radius : 30px;
+    display:-ms-inline-grid;
+}
+
+::placeholder{
+    color:rgba(255, 255, 255, 0.445);
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"], .box textarea{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #ffa328;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus, .box textarea:focus{
+  width: 280px;
+  border: 2px solid;
+  /*  border-image: linear-gradient( 45deg, #ff275c,#ffa328 );
+    border-image-slice: 1;*/
+}
+.box label{
+    color:white;
+}
+.box input[type = "submit"], .btn, .box select, .box button{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid;
+  padding: 14px 40px;
+  outline: none;
+  color: #ffa328;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover, .btn:hover, .box select:hover, .box button:hover{
+  background: #ffa2282f;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #ffa328;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border: 2px solid;
+  /*  border-image: linear-gradient( 45deg, #ff275c,#ffa328 );
+    border-image-slice: 1;*/
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid;
+  padding: 14px 40px;
+  outline: none;
+  color: #ffa328;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #ffa2282f;
+}
+
+
+
+
+
+
+.box1 input[type = "search"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #ffa328;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  .box1 input[type = "search"]:focus{
+    width: 280px;
+    border: 2px solid;
+    /*  border-image: linear-gradient( 45deg, #ff275c,#ffa328 );
+      border-image-slice: 1;*/
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.paragrapheh1{
+    font-size: 50px;
+    font-family:'Comfortaa';
+    color: white;
+    padding-top: 15%;
+    padding-left: 20%;
+    order: 1;
+}
+.paragrapheh2{
+    font-size: 20px;
+    font-family:'Comfortaa';
+    color: white;
+    margin-top: -20px;
+    padding-left: 20%;
+    order: 1;
+}
+.paragrapheh3{
+    font-size: 10px;
+    font-family:'Comfortaa';
+    color: white;
+    margin-top: -10px;
+    padding-left: 20%;
+    order: 1;
+}
+.contain{
+    display: flex;
+    flex-direction:row;
+    width: auto;
+    margin-top:-50px;
+    
+}
+.contenaire{
+    display:flex;
+    flex-direction: row;
+    
+}
+.h1{
+    font-family: "Geometos";
+    padding-left: 50%;
+    padding-top: 50%;
+ 
+}
+.title{
+    font-family: "Geometos";
+    text-align: center;
+    color: white;
+}
+
+
+
+.finaliser_input {
+    position: absolute;
+    bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 10px;
+    width: 65%;
+    background: transparent;
+    transition: all .25s ease;
+  }
+  
+  .finaliser_input:focus {
+    outline: none;
+    border-bottom: 1px solid #a77cf4;
+  }
+
+  .finaliser_box{
+    margin-top:0;
+    width: 40%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ffffff17;
+    backdrop-filter: blur(50px);
+    text-align: center;
+    border-radius : 30px;
+    display:-ms-inline-grid;
+}
+
+
+

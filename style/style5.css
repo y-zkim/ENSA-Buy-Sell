@@ -1,0 +1,193 @@
+/*---------------panier-----------------------------*/
+.panier_title{
+    font-family: 'Comfortaa';
+}
+      .container{
+        width: 70%;
+        margin-left: 300px;
+    }
+    .cart-header {
+      
+      font-size: 1.25em;
+      color: rgb(255, 255, 255);
+  }
+  
+  .cart-row {
+      display: flex;
+  }
+  
+  .cart-row:last-child {
+      border-bottom: 1px solid white;
+  }
+  
+  .cart-row:last-child .cart-column {
+      border: none;
+  }
+  
+  .cart-column {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid white;
+      margin-right: 1.5em;
+      padding-bottom: 10px;
+      margin-top: 10px;
+      border-bottom: 1px solid white;
+  }
+  
+  .cart-row {
+      display: flex;
+  }
+  
+  .cart-item {
+      width: 45%;
+  }
+  .cart-price {
+      width: 20%;
+      font-size: 1.2em;
+      color: rgb(255, 255, 255);
+  }
+  .cart-quantity {
+      width: 35%;
+  }
+  .cart-item-title {
+      color: rgb(255, 255, 255);
+      margin-left: 5%;
+      font-size: 1.2em;
+  }
+  
+  .cart-item-image {
+      border-radius: 10px;
+      width: 75px;
+      height: auto;
+      border-radius: 10px;
+  }
+  
+  .btn-danger {
+
+    display: block;
+      
+      margin-left: 135px;
+      width: 100px;
+      height: 40px;
+      color: #ff6542;
+      font-size: 15px;
+      font-family: 'Comfortaa';
+      border-radius: 30px;
+      background-color: transparent ;
+      border: 2px solid #ff6542;/* rose #ff4052,   orange #ff6542 */
+      cursor: pointer;
+
+
+
+
+
+
+
+
+
+        /*
+      color: white;
+      margin-left: 90px;
+      background-color: #064acb  ;
+      border: none;
+      border-radius: .3em;
+      font-weight: bold;
+      height: 30px;
+      cursor: pointer;   
+      */
+   
+  }
+  
+  .btn-danger:hover {
+      background-color: #CC4C4C;
+  }
+  
+  .cart-quantity-input {
+      height: 34px;
+      width: 50px;
+      border-radius: 5px;
+      border: 2px solid #f79f24;
+      background-color: transparent;
+      color: rgb(255, 255, 255);
+      width: 50px;
+      padding: 0;
+      text-align: center;
+      font-size: 1.2em;
+      margin-right: 25px;
+  }
+  
+  .cart-row:last-child {
+      border-bottom: 1px solid #fff;
+  }
+  
+  .cart-row:last-child .cart-column {
+      border: none;
+  }
+  
+  .cart-total {
+      text-align: end;
+      margin-right: 10px;
+      margin-top: 10px;
+      margin-right: 18px;
+  }
+  .cart-total-title {
+      font-weight:normal;
+      font-size: 1.5em;
+      color: rgb(255, 255, 255);
+      margin-right: 20px;
+  }
+  .cart-total-price {
+      color: rgb(255, 255, 255);
+      font-weight: bolder;
+      font-size: 25px;
+  }
+  .btn-purchase {
+      display: block;
+      /*margin: 40px auto 80px auto;*/
+      margin-top: 5%;
+      margin-left: 82%;
+      margin-bottom: -20px;
+      width: 150px;
+      height: 40px;
+      color: #ff6542;
+      font-size: 1.75em;
+      font-family: 'Comfortaa';
+      border-radius: 30px;
+      background-color: transparent ;
+      border: 2px solid #ff6542;/* rose #ff4052,   orange #ff6542 */
+      cursor: pointer;
+      
+  }
+
+.finaliser{
+   margin-top: 290px;
+   margin-bottom: 20px;
+   text-align: center;
+   padding: 10px;
+
+
+   
+}
+.finaliser button{
+    display: block;
+    /*margin: 40px auto 80px auto;*/
+    margin-top: -150px;
+    margin-left: 73%;
+    width: 250px;
+    height: 40px;
+    color: #ff6542;
+    font-size: 15px;
+    font-family: 'Comfortaa';
+    border-radius: 30px;
+    background-color: transparent ;
+    border: 2px solid #ff6542;/* rose #ff4052,   orange #ff6542 */
+    cursor: pointer;
+}
+.finaliser button:hover,.btn-purchase:hover{
+  color: #fff;
+  -webkit-transition-duration: .5s;
+       -o-transition-duration: .5s;
+          transition-duration: .5s;
+  background: #ff6542 ;
+}
+

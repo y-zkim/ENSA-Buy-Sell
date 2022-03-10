@@ -1,0 +1,225 @@
+/* finalisation 1 */
+
+.finaliser1{
+    height: 300px;
+    
+ }
+.finaliser1 .name{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+}
+.finaliser1 .name label{
+    font-size: 20px;
+    
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+.finaliser1 .name input{
+    height: 26px;
+    width: 250px;
+    margin-left: 20px;
+    font-size: 19px;
+
+}
+.finaliser1 .name input:hover{
+   border: solid 1px #f79f24;
+}
+.numero label{
+    padding-left: 245px;
+    font-size: 20px;
+    
+    font-family: sans-serif;
+    margin-left: 20px;
+    
+    
+}
+.numero input{
+    height: 26px;
+    width: 400px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+.finaliser1 .numero input:hover{
+    border: solid 1px #f79f24;
+ }
+
+ .adress label{
+    float: left !important;
+    padding-left: 245px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+.adress textarea{
+    float: left;
+    width: 640px;
+    font-size: 19px;
+}
+.adress textarea:hover{
+    border: solid 1px #f79f24;
+}
+.finaliser1 .region{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    
+}
+.finaliser1 .region label{
+    font-size: 20px;
+    
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+.finaliser1 .region select{
+    height: 26px;
+    width: 260px;
+    margin-left: 20px;
+    font-size: 19px;
+
+}
+.region select:hover{
+    border: solid 1px #f79f24;
+}
+ h4{
+   float: left; 
+   margin-top: 250px;
+   margin-left: -700px;
+   font-size: 18px;
+   color: red;
+
+}
+.finaliser1 span{
+    color: red;
+}
+/*finalisation2 */
+.livraison{
+    text-align: center;
+    padding-left: 750px;
+    margin-top: -200px;
+    
+}
+.livraison h4{
+   
+ font-family: monospace;
+ font-size: 20px;
+ color:#f79f24 ;
+}
+
+.final2 {
+    border: solid 1px black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    height: 250px;
+    margin-left: 300px;
+    margin-right: 100px;
+    position: absolute;
+}
+.mode{
+    margin-top: 350px;
+}
+.mode p {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #064acb ;
+    text-align: center;
+}
+.mode div{
+
+margin-left: 300px; 
+padding: 10px;
+}
+.mode label{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.mode img{
+    height: 50px;
+    width: 40px;
+    margin-left: 20px;
+    position: relative;
+    top: 15px;
+}
+  .view_port {
+   background-color:#f79f24 ;
+    height: 90px;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 10px;
+    overflow: hidden;
+    margin-bottom: -180px;
+  }
+  
+  .cylon_eye {
+    
+    color: black;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: sans-serif;
+   
+    font-size: 18px;
+    height: 100%;
+    width: 100%;
+  
+    -webkit-animation:15s linear 1s infinite running slidein;
+    animation: 15s linear 1s infinite running slidein; 
+ }
+  
+        @-webkit-keyframes slidein { from { margin-left:-20%; } to { margin-left:100%; } }
+          @keyframes slidein { from { margin-left:-20%; } to { margin-left:100%; }
+}
+/* page payement*/
+.payement{
+    height: 100px !important;
+}
+.formulaire_payement{
+    margin-top: 200px;
+    margin-left: 300px;
+    border: solid 1px black;
+    -webkit-box-shadow: 5px 5px 5px black;
+            box-shadow: 5px 5px 5px black;
+    height: 350px;
+    width: 750px;
+    margin-right: 100px;
+    position: absolute;
+    
+  
+
+    
+}
+.formulaire_payement p{
+    padding-left: 40px;
+    font-size: 20px;
+    
+}
+.formulaire_payement img{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    position: relative;
+    top: 15px;
+}
+.formulaire_payement input{
+    border: none;
+    border-bottom: solid 1px #f79f24 ;
+    margin: 20px;
+    margin-left: 40px;
+    padding: 5px;
+    width: 300px;
+    font-size: 20px;
+
+}
+.formulaire_payement div{
+    margin-left: 0px;
+}
+.formulaire_payement div p {
+    font-size: 20px;
+}
+.formulaire_payement select{
+    height: 40px;
+    width: 80px;
+    margin-left: 40px;
+}
